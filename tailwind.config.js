@@ -7,6 +7,9 @@ export default {
     },
     fontFamily: {
       primary: "Poppins",
+      secondary: ["inter", "sans"],
+      headingcursive: ["Allura", "serif"],
+      secondary2: ["Italianno", "cursive"],
     },
     screens: {
       sm: "640px",
@@ -14,7 +17,15 @@ export default {
       lg: "1024px",
       xl: "1440px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#1c292f",
+        secondary: "#d9e1e4",
+        secondary2: "#d9e1e4",
+        actionColor: "#06c39d",
+        black: "#1A1A1A",
+      },
+    },
   },
   plugins: [],
 };

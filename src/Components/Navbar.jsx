@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isActive ? "bg-white py-3 shadow-md" : "bg-transparent py-3"
+        isActive ? "bg-white py-0 shadow-md" : "bg-transparent py-0"
       } fixed w-full z-20 transition-all duration-300`}
     >
       <div

@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Patua+One&family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,4 +15,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
 }
