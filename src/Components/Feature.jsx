@@ -3,14 +3,14 @@ import Img from "../assets/vu-anh-TiVPTYCG_3E-unsplash(1).jpg";
 import { IoIosStar } from "react-icons/io";
 const Feature = () => {
   return (
-    <section className="relative h-[100vh] w-[100vw] overflow-y-auto md:overflow-hidden">
-      <div className="container my-6 flex flex-col overflow-y-auto md:overflow-hidden">
-        <div className="w-full h-[70vh] flex flex-col py-4 gap-4 md:flex-row overflow-y-auto overflow-x-hidden md:overflow-hidden ">
+    <section className="relative h-fit max-w-[100vw] w-[100vw] overflow-y-auto md:overflow-hidden">
+      <div className="container my-6 flex flex-col">
+        <div className="w-full h-[70vh] flex flex-col py-4 gap-4 md:flex-row ">
           <div className=" w-full h-full flex place-content-center items-center ">
-            <div className="md:h-[400px] md:w-auto w-[380px] sm:px-4 overflow-clip rounded-2xl">
+            <div className="md:h-[400px] md:w-full w-[380px] sm:px-4 overflow-clip rounded-2xl">
               <img
                 src={Img}
-                className="h-full w-full rounded-2xl"
+                className="h-full w-full object-cover rounded-2xl shadow-xl"
                 alt="Feature img"
               />
             </div>

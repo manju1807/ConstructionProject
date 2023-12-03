@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="flex h-full w-full relative justify-center items-center rounded-2xl overflow-x-clip">
               <img
                 src={HeroImg2}
-                className="relative md:absolute h-[450px] md:h-[650px] w-[100%] md:top-[-5.3rem] md:right-0 top-[-4rem] left-0 "
+                className="relative md:absolute h-[450px] md:h-[620px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0"
                 alt=""
               />
             </div>
