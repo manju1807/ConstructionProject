@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="bg-primary mt-[4rem] rounded-2xl w-full flex flex-col-reverse md:flex-row md:gap-4 gap-0 justify-center items-center">
             <div className="flex flex-col justify-between items-center h-full w-full md:py-16 pb-8 space-y-12 px-4">
               <div className="flex flex-col px-4 md:px-0 space-y-4 md:space-y-2 max-w-md">
-                <h1 className="md:text-4xl text-2xl text-white font-semibold md:leading-[2.8rem] leading-[2rem]">
+                <h1 className="md:text-4xl text-2xl text-white md:leading-[2.8rem] leading-[2rem]">
                   <span className="font-semibold uppercase">
                     Your vision, our expertise:
                   </span>
@@ -18,7 +18,7 @@ const Hero = () => {
                     {" "}
                     building success{" "}
                   </span>
-                  <span className="text-5xl font-headingcursive text-actionColor">
+                  <span className="text-5xl font-headingcursive font-light text-actionColor">
                     Together
                   </span>
                 </h1>
