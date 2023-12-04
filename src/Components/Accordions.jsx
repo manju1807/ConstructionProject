@@ -3,7 +3,7 @@ import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
 
 // eslint-disable-next-line react/prop-types
-const Accordions = ({ items }) => {
+const Accordions = ({ items, bg }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -16,7 +16,9 @@ const Accordions = ({ items }) => {
         <div key={index} className="mb-4 border-b border-gray-400">
           <div
             className={`py-3 cursor-pointer flex flex-row justify-between transition-all duration-300 ${
-              openIndex === index ? "text-actionColor" : "text-gray-600"
+              openIndex === index
+                ? "text-actionColor"
+                : `${bg === "dark" ? "text-gray-50" : "text-gray-600"}`
             }`}
           >
             <h2 className="text-medium font-medium">{item.title}</h2>

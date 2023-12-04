@@ -4,7 +4,7 @@ import { IoIosStar } from "react-icons/io";
 const Feature = () => {
   return (
     <section className="relative h-fit max-w-[100vw] w-[100vw] overflow-y-auto md:overflow-hidden">
-      <div className="container my-6 flex flex-col">
+      <div className="container flex flex-col">
         <div className="w-full h-[70vh] flex flex-col py-4 gap-4 md:flex-row ">
           <div className=" w-full h-full flex place-content-center items-center ">
             <div className="md:h-[400px] md:w-full w-[380px] sm:px-4 overflow-clip rounded-2xl">
@@ -36,7 +36,7 @@ const Feature = () => {
           </div>
         </div>
         <div
-          className="w-full h-[30vh] relative flex flex-col space-y-4 py-6 my-6 md:py-6 items-center"
+          className="w-full h-fit relative flex flex-col space-y-4 py-6 md:py-6 items-center"
           style={{
             borderBottom: "1px solid #0f172a1a",
             borderTop: "1px solid #0f172a1a",
