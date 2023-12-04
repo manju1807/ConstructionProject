@@ -24,7 +24,7 @@ const Deliverables = () => {
             quality construction.
           </p>
         </header>
-        <div className="grid grid-cols-1 px-6 md:px-0 gap-2 md:grid-cols-5 h-full w-full">
+        <div className="grid grid-cols-1 px-6 md:px-0 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 h-full w-full">
           <div className="md:min-h-[80vh] flex justify-center items-start p-2">
             <DeliverableCard
               Icon={<PiPencilCircle />}

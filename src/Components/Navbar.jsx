@@ -66,7 +66,7 @@ const Navbar = () => {
       </div>
       <div
         className={`md:hidden absolute top-0 ${
-          isSidebarActive ? "right-0" : "-right-[30rem]"
+          isSidebarActive ? "right-0" : "-right-[60rem]"
         }  bg-white min-w-[100vw] min-h-[100vh] max-h-screen max-w-screen-sm transition-all duration-300`}
       >
         <div>
