@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         isActive ? "bg-white py-0 shadow-md" : "bg-transparent py-0"
-      } fixed w-full z-20 transition-all duration-300`}
+      } fixed w-full z-50 transition-all duration-300`}
     >
       <div
         className="container flex items-center justify-between w-full h-full px-4 md:px-2 relative"
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`md:hidden absolute top-0 ${
+        className={`md:hidden absolute z-50 top-0 ${
           isSidebarActive ? "right-0" : "-right-[60rem]"
         }  bg-white min-w-[100vw] min-h-[100vh] max-h-screen max-w-screen-sm transition-all duration-300`}
       >
