@@ -25,6 +25,7 @@ const Navbar = () => {
       window.scrollY > 60 ? setIsActive(true) : setIsActive(false)
     );
   });
+
   return (
     <nav
       className={`${
