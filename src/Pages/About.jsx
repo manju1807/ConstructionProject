@@ -7,7 +7,7 @@ const About = () => {
         <div className="bg-green-200 flex flex-col gap-2 md:gap-4 md:flex-row min-h-full min-w-full">
           <div className="h-full w-full">hello</div>
           <div className="h-full w-full flex place-content-center">
-            <div className="flex md:h-[250px]">
+            <div className="flex md:h-[40vh]">
               <img src={BgImage} alt="" />
             </div>
           </div>

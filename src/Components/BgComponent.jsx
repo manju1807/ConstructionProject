@@ -3,7 +3,7 @@ const BgComponent = ({ Title, SubHeading, Content }) => {
   return (
     <section className="max-h-fit">
       <div className="relative">
-        <div className="h-[70vh] w-full flex items-center justify-center">
+        <div className="h-[60vh] w-full flex items-center justify-center">
           <img
             src={Img}
             className="h-full w-full object-cover blur-[1px]"
@@ -22,7 +22,7 @@ const BgComponent = ({ Title, SubHeading, Content }) => {
         </div>
       </div>
       <div className="bg-secondary2 h-[200vh] w-[100vw]"></div>
-      <div className=" w-full md:w-[80%] h-[50vh] bg-white rounded-xl absolute top-[52%] md:top-[48%] left-[50%] transform -translate-x-[50%] z-20 p-6 md:px-8 xl:px-12">
+      <div className=" w-full md:w-[80%] h-[50vh] bg-white rounded-xl absolute top-[52%] md:top-[42%] left-[50%] transform -translate-x-[50%] z-20 p-6 md:px-8 xl:px-12">
         {Content}
       </div>
     </section>
