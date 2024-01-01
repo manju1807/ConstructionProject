@@ -5,8 +5,8 @@ import HeroImg2 from '../assets/r-architecture-JvQ0Q5IkeMM-unsplash.png';
 const Hero = () => {
   return (
     <section className='relative min-h-[100vh] min-w-full max-w-[100vw] overflow-y-auto mb-4 md:mb-0 md:overflow-hidden'>
-      <div className='container min-h-[100vh] w-screen flex flex-col gap-4 px-4'>
-        <div className='min-h-[75vh] w-full flex'>
+      <div className='container min-h-[100vh] w-screen flex flex-col gap-4 px-0'>
+        <div className='min-h-[80vh] md:min-h-[75vh] w-full flex'>
           <div className='bg-primary mt-[4rem] rounded-2xl w-full flex flex-col-reverse md:flex-row md:gap-4 gap-0 justify-center items-center'>
             <div className='flex flex-col justify-between items-center h-full w-full md:py-16 pb-8 space-y-12 px-4'>
               <div className='flex flex-col px-4 md:px-0 space-y-4 md:space-y-2 max-w-md'>
@@ -37,11 +37,11 @@ const Hero = () => {
             <div className='flex h-full w-full relative justify-center items-center rounded-2xl overflow-x-clip'>
               <img
                 src={HeroImg2}
-                className='relative md:absolute h-[450px] md:h-[620px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0'
+                className='relative md:absolute h-[350px] md:h-[620px] w-full md:bottom-0 md:right-0 bottom-10 right-0'
                 alt=''
               />
-              <div className='relative md:absolute h-[450px] md:h-[500px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0 opacity-100 bg-gradient-to-bl from-transparent via-transparent to-primary'></div>
-              <div className='relative md:absolute h-[450px] md:h-[500px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0 opacity-100 bg-gradient-to-br from-transparent via-transparent to-primary'></div>
+              <div className='absolute h-[300px] md:h-[500px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0 opacity-100 bg-gradient-to-bl from-transparent via-transparent to-primary'></div>
+              <div className='absolute h-[300px] md:h-[500px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0 opacity-100 bg-gradient-to-br from-transparent via-transparent to-primary'></div>
             </div>
           </div>
         </div>
