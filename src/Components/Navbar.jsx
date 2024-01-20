@@ -33,7 +33,7 @@ const Navbar = () => {
       } fixed w-full z-50 transition-all duration-300`}
     >
       <div
-        className='container flex items-center justify-between py-1 w-full h-full md:px-2 relative'
+        className='container flex items-center justify-between py-1 w-full h-full PX-6 md:px-4 relative'
         style={{ borderBottom: '1px solid #0f172a1a' }}
       >
         <Link to={'/'}>
