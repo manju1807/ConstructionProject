@@ -53,7 +53,7 @@ const Feature = () => {
               Our <span className="font-medium">Features</span>
             </h1>
           </div>
-          <div className="flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-6 py-8 md:py-12">
+          <div className="flex flex-wrap md:flex-row items-center justify-center gap-4 md:gap-6 md:px-2 py-8 md:py-12">
             <h2 className="flex items-center gap-2">
               <span className="text-actionColor">
                 <IoIosStar />
