@@ -6,7 +6,7 @@ const Projects = () => {
   };
   return (
     <BgComponent
-      Title={'Contact Us'}
+      Title={'Projects'}
       SubHeading={'Your Voice Matters! Reach Out – We Love to Hear from You!'}
       Content={<Content />}
     />
