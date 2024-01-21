@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 cursor-pointer">
             <div>
-              <h1 className="mr-5 h-6 sm:h-9 text-white text-2xl font-heading font-bold">
+              <h1 className="mr-5 h-6 sm:h-9  text-white text-2xl font-heading font-bold">
                 Logo <span className="text-actionColor">*</span>
               </h1>
               <p className="max-w-xs mt-4 text-md text-gray-400 hover:text-actionColor">

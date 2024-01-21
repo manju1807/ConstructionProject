@@ -83,7 +83,7 @@ const Testimonials = () => {
             ))}
           </div>
         </div>
-        <div className='w-[80%] h-fit flex flex-col justify-center place-self-center items-start space-y-2 px-6 '>
+        <div className='w-[80%] h-fit flex flex-col justify-center place-self-center items-start space-y-2 py-4 px-4 '>
           <h1 className='md:text-3xl text-2xl font-medium uppercase leading-[1.8rem]'>
             FAQ&apos;
             <span className='text-2xl text-actionColor'>s</span>

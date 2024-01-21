@@ -15,11 +15,11 @@ const Deliverables = () => {
     <section className="relative h-fit max-w-[100vw] w-[100vw]">
       <div className="container flex flex-col px-4 py-6 space-y-4">
         <header className="flex space-y-2 flex-col">
-          <h1 className="uppercase font-medium text-xl md:text-2xl">
+          <h1 className="uppercase font-medium text-xl px-4 md:text-2xl">
             Elevate your Options{" "}
             <span className="font-light">explore what we offer</span>
           </h1>
-          <p className="text-sm">
+          <p className="text-sm px-4">
             to provide the highest customer satisfaction by providing high
             quality construction.
           </p>
