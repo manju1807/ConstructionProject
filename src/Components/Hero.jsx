@@ -5,7 +5,7 @@ import HeroImg2 from '../assets/r-architecture-JvQ0Q5IkeMM-unsplash.png';
 const Hero = () => {
   return (
     <section className='relative min-h-[100vh] min-w-full max-w-[100vw] overflow-y-auto mb-4 md:mb-0 md:overflow-hidden'>
-      <div className='container min-h-[100vh] w-screen flex flex-col gap-4 px-0'>
+      <div className='container min-h-[100vh] flex flex-col gap-4 px-4'>
         <div className='min-h-[80vh] md:min-h-[75vh] w-full flex'>
           <div className='bg-primary mt-[4rem] rounded-2xl w-full flex flex-col-reverse md:flex-row md:gap-4 gap-0 justify-center items-center'>
             <div className='flex flex-col justify-between items-center h-full w-full md:py-16 pb-8 space-y-12 px-4'>
@@ -37,7 +37,7 @@ const Hero = () => {
             <div className='flex h-full w-full relative justify-center items-center rounded-2xl overflow-x-clip'>
               <img
                 src={HeroImg2}
-                className='relative md:absolute h-[350px] md:h-[620px] w-full md:bottom-0 md:right-0 bottom-10 right-0'
+                className='relative md:absolute py-12 pr-0 h-[350px] md:h-[520px] md:py-0 w-full md:bottom-0 md:right-0 bottom-10 right-0 '
                 alt=''
               />
               <div className='absolute h-[300px] md:h-[500px] w-[100%] md:bottom-0 md:right-0 bottom-10 right-0 opacity-100 bg-gradient-to-bl from-transparent via-transparent to-primary'></div>
@@ -45,17 +45,17 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className='min-h-[20vh] w-full flex justify-center items-center bg-secondary rounded-2xl px-4 py-2'>
-          <div className='flex flex-col md:flex-row space-y-6 md:min-w-full md:px-[8rem] md:py-2 py-4 justify-between items-center'>
-            <p className='uppercase text-md font-semibold max-w-full md:w-[18rem] md:leading-6 w-[22rem]'>
+        <div className='min-h-[20vh] w-full flex justify-center items-center bg-secondary rounded-2xl px-4 pb-6'>
+          <div className='flex flex-col md:flex-row space-y-6 md:min-w-full md:px-[2rem] md:py-2 py-4 justify-between items-center'>
+            <p className='uppercase text-md font-semibold max-w-full px-8 md:w-[16rem] md:px-0 md:text-lg md:leading-6 w-[22rem]'>
               WE ARE PROUD FOR{' '}
               <span className='text-actionColor'>THE RESULTS {''}</span>IN THE
               PAST 10 years{' '}
             </p>
-            <div className='flex flex-wrap px-4 md:py-2 md:space-x-12 uppercase items-start gap-6 md:gap-2'>
-              <div className='flex flex-col space-y-2 max-w-[16rem]'>
+            <div className='flex flex-wrap px-8  uppercase items-start gap-6 md:gap-8'>
+              <div className='flex flex-col space-y-2 max-w-[16rem] '>
                 <h1 className='text-xl font-semibold'>1,5K+</h1>
-                <p className='text-sm max-w-[12rem] '>
+                <p className='text-sm max-w-[12rem]'>
                   Clients And Partners Across the world
                 </p>
               </div>
