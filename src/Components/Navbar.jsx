@@ -33,7 +33,7 @@ const Navbar = () => {
       } fixed w-full z-50 transition-all duration-300`}
     >
       <div
-        className='container flex items-center justify-between py-1 w-full h-full PX-6 md:px-4 relative'
+        className='container flex items-center justify-between py-1 w-full h-full px-6 md:px-4 relative'
         style={{ borderBottom: '1px solid #0f172a1a' }}
       >
         <Link to={'/'}>
@@ -72,7 +72,7 @@ const Navbar = () => {
       >
         <div>
           <div
-            className='container flex place-content-end mx-auto px-0 py-3 w-full items-center'
+            className='container flex place-content-end mx-auto px-6 py-3 w-full items-center'
             style={{ borderBottom: '1px solid #0f172a1a' }}
           >
             <IoArrowBack

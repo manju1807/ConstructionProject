@@ -7,7 +7,7 @@ const Feature = () => {
       <div className="container flex flex-col">
         <div className="w-full h-[70vh] flex flex-col py-4 gap-4 md:flex-row ">
           <div className=" w-full h-full flex place-content-center items-center ">
-            <div className="md:h-[400px] md:w-full w-[380px] sm:px-4 overflow-clip rounded-2xl">
+            <div className=" md:h-[400px] md:w-full w-full px-4 sm:px-4 overflow-clip rounded-2xl">
               <img
                 src={Img}
                 className="h-full w-full object-cover rounded-2xl shadow-xl"
@@ -16,7 +16,7 @@ const Feature = () => {
             </div>
           </div>
           <div className=" w-full h-full flex place-content-center items-center px-4">
-            <div className="flex flex-col space-y-12 md:space-y-18 px-4 md:px-2">
+            <div className="flex flex-col space-y-4 md:space-y-18 px-4 md:px-2">
               <div className="max-w-md md:space-y-4 space-y-4 py-2">
                 <h1 className="md:text-3xl text-2xl font-light uppercase leading-[1.8rem]">
                   Where Innovation Meets Construction{" "}
@@ -29,7 +29,7 @@ const Feature = () => {
                   to life with unparalleled ingenuity and precision.
                 </p>
               </div>
-              <div>
+              <div >
                 <GreenBtn Content={"Know More"} />
               </div>
             </div>
