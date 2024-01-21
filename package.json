@@ -10,16 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@trendyol-js/react-carousel": "^3.0.2",
+    "framer-motion": "^10.16.12",
     "react": "^18.2.0",
+    "react-carousel": "^4.3.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
+    "react-responsive-carousel": "^3.1.51",
     "react-router-dom": "^6.20.0",
-    "react-spinners": "^0.13.8"
+    "react-spinners": "^0.13.8",
+    "react-styled-carousel": "^0.5.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
+    "@wixc3/react-board": "^2.3.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.53.0",
     "eslint-plugin-react": "^7.33.2",
