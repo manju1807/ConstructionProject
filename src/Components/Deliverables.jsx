@@ -13,7 +13,7 @@ import Img5 from "../assets/ExploreSection/NRIguide.jpg";
 const Deliverables = () => {
   return (
     <section className="relative h-fit max-w-[100vw] w-[100vw]">
-      <div className="container flex flex-col px-4 py-6 space-y-4">
+      <div className="container flex flex-col px-4 py-6 space-y-4 ">
         <header className="flex space-y-2 flex-col">
           <h1 className="uppercase font-medium text-xl px-4 md:text-2xl">
             Elevate your Options{" "}
@@ -24,8 +24,8 @@ const Deliverables = () => {
             quality construction.
           </p>
         </header>
-        <div className="grid grid-cols-1 px-6 md:px-0 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 h-full w-full">
-          <div className="md:min-h-[80vh] flex justify-center items-start p-2">
+        <div className="grid grid-cols-1 px-6 md:px-0 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 h-full w-full ">
+          <div className="md:min-h-[80vh] md:mt-4  flex justify-center items-start p-2">
             <DeliverableCard
               Icon={<PiPencilCircle />}
               heading={"Project Designs"}
@@ -45,7 +45,7 @@ const Deliverables = () => {
               }
             />
           </div>
-          <div className="md:min-h-[80vh] flex justify-center items-start p-2">
+          <div className="md:min-h-[80vh] md:mt-4 flex justify-center items-start p-2">
             <DeliverableCard
               Icon={<IoPerson />}
               heading={"Customer Services"}
@@ -55,7 +55,7 @@ const Deliverables = () => {
               }
             />
           </div>
-          <div className="md:min-h-[80vh] flex justify-center items-center p-2">
+          <div className="md:min-h-[80vh] md:-mt-36  flex justify-center items-center p-2">
             <DeliverableCard
               Icon={<FaHandshakeSimple />}
               heading={"Our Promise"}
@@ -65,7 +65,7 @@ const Deliverables = () => {
               }
             />
           </div>
-          <div className="md:min-h-[80vh] flex justify-center items-start p-2">
+          <div className="md:min-h-[80vh] md:-mt-36 flex justify-center items-start p-2">
             <DeliverableCard
               Icon={<IoDocumentTextSharp />}
               heading={"NRI Guide"}
