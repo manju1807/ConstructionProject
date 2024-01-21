@@ -94,7 +94,7 @@ const Navbar = () => {
               <Link to='/projects' className='hover:text-gray-600'>
                 Projects
               </Link>
-              <Link to='/contacts' className='hover:text-gray-600'>
+              <Link to='/contact' className='hover:text-gray-600'>
                 Contact us
               </Link>
             </div>
