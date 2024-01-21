@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import Logo from '../assets/icons8-tailwindcss-480.png';
 import { IoMenu } from 'react-icons/io5';
 import { IoArrowBack } from 'react-icons/io5';
+
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const [isSidebarActive, setIsSidebarActive] = useState(false);
@@ -26,6 +27,10 @@ const Navbar = () => {
     );
   });
 
+  const handleLinkClick = () => {
+    setIsSidebarActive(false);
+  };
+
   return (
     <nav
       className={`${
@@ -42,24 +47,24 @@ const Navbar = () => {
           </motion.div>
         </Link>
         <motion.div className='md:flex hidden space-x-4'>
-          <Link to='/' className='hover:text-gray-600'>
+          <Link to='/' className='hover:text-gray-600' onClick={handleLinkClick}>
             Home
           </Link>
-          <Link to='/about' className='hover:text-gray-600'>
+          <Link to='/about' className='hover:text-gray-600' onClick={handleLinkClick}>
             About
           </Link>
-          <Link to='/services' className='hover:text-gray-600'>
+          <Link to='/services' className='hover:text-gray-600' onClick={handleLinkClick}>
             Services
           </Link>
-          <Link to='/projects' className='hover:text-gray-600'>
+          <Link to='/projects' className='hover:text-gray-600' onClick={handleLinkClick}>
             Projects
           </Link>
-          <Link to='/contact' className='hover:text-gray-600'>
+          <Link to='/contact' className='hover:text-gray-600' onClick={handleLinkClick}>
             Contact us
           </Link>
         </motion.div>
         <div
-          className='md:hidden flex cursor-pointer hover:text-gray-600'
+          className='md:hidden flex cursor-pointer hover:text-gray-400'
           onClick={ToggleMenu}
         >
           <IoMenu className='text-2xl' />
@@ -82,19 +87,19 @@ const Navbar = () => {
           </div>
           <motion.div className='flex md:hidden justify-center items-center h-[100vh] w-[100vw] '>
             <div className='flex flex-col h-full items-center justify-center space-y-4 text-xl'>
-              <Link to='/' className='hover:text-gray-600'>
+              <Link to='/' className='hover:text-gray-600' onClick={handleLinkClick}>
                 Home
               </Link>
-              <Link to='/about' className='hover:text-gray-600'>
+              <Link to='/about' className='hover:text-gray-600' onClick={handleLinkClick}>
                 About
               </Link>
-              <Link to='/services' className='hover:text-gray-600'>
+              <Link to='/services' className='hover:text-gray-600' onClick={handleLinkClick}>
                 Services
               </Link>
-              <Link to='/projects' className='hover:text-gray-600'>
+              <Link to='/projects' className='hover:text-gray-600' onClick={handleLinkClick}>
                 Projects
               </Link>
-              <Link to='/contact' className='hover:text-gray-600'>
+              <Link to='/contact' className='hover:text-gray-600' onClick={handleLinkClick}>
                 Contact us
               </Link>
             </div>
