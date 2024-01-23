@@ -46,25 +46,25 @@ const Hero = () => {
           </div>
         </div>
         <div className='min-h-[20vh] w-full flex justify-center items-center bg-secondary rounded-2xl px-4 pb-6'>
-          <div className='flex flex-col md:flex-row space-y-6 md:min-w-full md:px-[2rem] md:py-2 py-4 justify-between items-center'>
-            <p className='uppercase text-md font-semibold max-w-full px-8 md:w-[16rem] md:px-0 md:text-lg md:leading-6 w-[22rem]'>
-              WE ARE PROUD FOR{' '}
-              <span className='text-actionColor'>THE RESULTS {''}</span>IN THE
-              PAST 10 years{' '}
+          <div className='flex flex-col md:flex-row space-y-6 px-[2rem] md:py-2 py-4 w-full justify-between items-center'>
+            <p className='text-md font-semibold max-w-full px-8 md:w-[20rem] md:text-lg md:leading-6'>
+              We are proud for{' '}
+              <span className='text-actionColor'>the results {''}</span>in the
+              past 10 Years{' '}
             </p>
-            <div className='flex flex-wrap px-8  uppercase items-start gap-6 md:gap-8'>
+            <div className='flex flex-wrap px-8 items-start gap-6 md:gap-8'>
               <div className='flex flex-col space-y-2 max-w-[16rem] '>
-                <h1 className='text-xl font-semibold'>1,5K+</h1>
+                <h1 className='text-xl font-bold'>1,5K+</h1>
                 <p className='text-sm max-w-[12rem]'>
                   Clients And Partners Across the world
                 </p>
               </div>
               <div className='flex flex-col space-y-2 max-w-[16rem]'>
-                <h1 className='text-xl font-semibold'>80+</h1>
+                <h1 className='text-xl font-bold'>80+</h1>
                 <p className='text-sm max-w-[12rem]'>Award Winning Aquired</p>
               </div>
               <div className='flex flex-col space-y-2 max-w-[16rem]'>
-                <h1 className='text-xl font-semibold'>90+</h1>
+                <h1 className='text-xl font-bold'>90+</h1>
                 <p className='text-sm max-w-[12rem]'>
                   Projects Completed in 24 Countries
                 </p>
