@@ -1,5 +1,5 @@
 import BgComponent from '../Components/BgComponent';
-import BgImage from '../assets/AboutDP.jpg';
+import BgImage from '../assets/discussion.jpg';
 const Contacts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,7 +17,7 @@ const Contacts = () => {
         </div>
         <main className='flex flex-col md:flex-row gap-4 justify-center items-center '>
           <div className='h-[100%] w-full p-4 place-content-center flex '>
-            <img src={BgImage} className='h-[350px]' alt='' />
+            <img src={BgImage} className='h-[300px]' alt='' />
           </div>
           <div className=' flex w-full h-full place-content-center p-4'>
             <form className='p-6 cursor-pointer w-full md:w-[75%] space-y-4 '>
